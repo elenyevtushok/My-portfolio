@@ -13,13 +13,10 @@ body {
   text-align: center !important;
 }
 
-h1,
-h2,
-h3 {
-}
+
 
 h1 {
-  font-size: 96px;
+  font-size: 84px;
 }
 
 h2 {
@@ -39,7 +36,7 @@ p {
 
 .navigation-links {
   display: flex;
-  margin-top: 40px;
+  margin-top: 30px;
   justify-content: center;
 }
 
@@ -95,4 +92,27 @@ p {
 }
 .app-descripton {
   display: block;
+}
+
+@media(max-width: 768px){
+	h1{
+		font-size: 48px;
+		padding: 15px;
+	}
+	h2 {
+  		font-size: 32px;
+	}
+	h3{
+		padding: 0 10px;
+	}
+	.about-paragraph {
+  		margin: 10px;
+}
+	.btn-apps{
+		display: block;
+		margin: 0px auto ;
+	}
+	.email-link{
+		font-size: 24px;
+	}
 }
